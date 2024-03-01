@@ -7,7 +7,7 @@ Simple project that contain `Spring-Boot`, `spring-security`, `JWT`, `Oauth2`, `
 Step for installation:
 ```sh
 # Clone this project from github
-git clone https://github.com/saptarga/spring-boot-basic-authentication.git
+git clone https://github.com/newguru-25/challenge.git
 
 # Clears the target directory and builds the project
 mvn clean install
