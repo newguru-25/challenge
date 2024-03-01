@@ -13,21 +13,6 @@ git clone https://github.com/newguru-25/challenge.git
 mvn clean install
 ```
 
-## Configuration
-Step for configuration:
-- Create new database in postgresql
-- Set database name, user, and password in `application-properties`
-- Create table `sec_user`
-```sh 
-    create table sec_user(
-        id bigserial primary key,
-        username varchar,
-        email varchar,
-        full_name varchar,
-        password varchar,
-        app_user_role varchar
-    );
-```
 
 ## Run Project
 You can start this project using
